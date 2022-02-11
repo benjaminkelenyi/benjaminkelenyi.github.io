@@ -549,6 +549,17 @@ mark,
   text-align: center;
 }
 
+.tooltip
+{
+  text-align: center;
+}
+
+
+.wrapper {
+  padding-top: 4em;
+  text-align: center;
+}
+
 .text-justify {
   text-align: justify;
 }

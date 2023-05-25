@@ -49,7 +49,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">SAM-Net: Self-Attention Matching Network with LoFTR, Spatial Transformer Networks, and Knowledge Distillation for Efficient 2D Feature Matching in CV</h1>
+          <h1 class="title is-1 publication-title">SAM-Net: Self-Attention Matching with Spatial transformers and Knowledge Distillation</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://benjaminkelenyi.github.io/">Benjamin Kelenyi</a>,</span>
@@ -97,11 +97,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <center><img src="static/images/intro.png" alt="Alternative Text" class="center"></center>
+      <center><img src="static/images/intro.jpg" alt="Alternative Text" class="center"></center>
       <h2 class="subtitle has-text-centered">
-        Intro text and image: 
+        Comparison between the SAM-Net and LoFTR. This example demonstrates that SAM-Net is capable of finding more accurate correspondences even in challenging conditions 
       </h2>
     </div>
+  </table>
+
   </div>
 </section>
 
@@ -115,7 +117,7 @@
           <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Add abstract here: 
+            This paper presents a novel approach to improve feature matching in computer vision applications by combining four powerful techniques: LoFTR, knowledge distillation, self-attention, and spatial transformer networks. In our approach, we use knowledge distillation to learn the feature extraction and matching capabilities of PixLoc, while incorporating self-attention and spatial transformer networks to further improve the model's ability to extract and match 2D features. SAM-Net's performance outperforms state-of-the-art methods, as demonstrated by experiments conducted on both indoor and outdoor datasets. Furthermore, SAM-Net achieves the top ranking among published methods in two public benchmarks for visual localization.  
           </p>
         </div>
       </div>
@@ -128,9 +130,13 @@
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Method</h2>
-          <p> Add description here:
-          </p>
-          <center><img src="static/images/network.png" alt="Alternative Text" width="80%" class="center"></center>
+          
+
+
+
+<div class="latex">  
+    </div>
+          <center><img src="static/images/arch.png" alt="Alternative Text" width="80%" class="center"></center>
         </div>
       </div>
     </div>
@@ -141,7 +147,7 @@
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visualization</h2>
-          <center><img src="static/images/matching.png" alt="Alternative Text" width="80%" class="center"></center>
+          <center><img src="static/images/resinout.png" alt="Alternative Text" width="80%" class="center"></center>
         </div>
       </div>
     </div>
@@ -152,7 +158,7 @@
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Benchmarking</h2>
-          <center><img src="static/images/res.png" alt="Alternative Text" width="80%" class="center"></center>
+          <center><img src="static/images/res1.jpg" alt="Alternative Text" width="80%" class="center"></center>
         </div>
       </div>
     </div>

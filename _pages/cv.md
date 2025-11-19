@@ -8,22 +8,12 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 <br>
-# 📘 Education
+# 📝 Summary
 ---
----
+Completed a PhD in Systems Engineering in 2023, with strong interests in software development, artificial intelligence, embedded programming, and microcontroller technology. I have around 10 years of hands-on experience working on diverse engineering and software projects, ranging from embedded systems to real-world AI applications. Passionate about building reliable, efficient, and innovative technologies that solve real-world problems.
 
-**🎓 Ph.D in System Engineering**, Technical University of Cluj-Napoca (2023)  
-*Focus: 3D Object Recognition using embedded devices with ToF cameras*
-
-**🎓 MSc in Applied Computer Science in Complex Systems Engineering**, Technical University of Cluj-Napoca (2020)  
-*Focus: Control system for self-driving cars*
-
-**🎓 BSc in Automation**, Technical University of Cluj-Napoca (2018)  
-*Focus: Automation, Systems Engineering, Embedded Systems*
-
-**🎓 High School Diploma in Informatics**, National College "Mihai Eminescu" of Satu Mare (2014)  
-*Focus: Mathematics & Informatics*
 
 ---
 <br>
@@ -31,14 +21,14 @@ redirect_from:
 ---
 ---
 
-### 🚀 Freelance Software Engineer | Qorvo  
-📍 Remote | 📅 Jun 2022 – Present  
+### 🚀 Senior Software Engineer | Qorvo  
+📍 Remote | 📅 Jun 2022 – Present 
 
-**Project:** Custom UWB (Ultra-Wideband) Chip Development  
+**Project:** Custom UWB  Chip Development
 
 **Responsibilities:**
 - 🔧 HAL development, AOSP integration, and firmware engineering  
-- 🛠️ Development and integration of RTOS-based drivers  
+<!-- - 🛠️ Development and integration of RTOS-based drivers   -->
 - ⚙️ Embedded Linux, Zephyr RTOS maintenance  
 - 🧪 Python tooling for feature validation and CI/CD automation  
 - 📄 Documentation, testing, and system integration  
@@ -77,11 +67,13 @@ redirect_from:
 ### 🔧 C/C++ Developer | Raptor Technologies  
 📍 Cluj County | 📅 Oct 2018 – Jan 2021  
 
-**Project:** Daimler ECU – Infotainment & Connectivity  
+**Projects:** Daimler (Infotainment ECU), Faiveley (Train Diagnostic Logging System)  
 
 **Responsibilities:**  
 - 💻 C++ development in Linux automotive environment  
-- 🚗 CAN-based system integration, debugging, documentation  
+- 🚗 CAN-based system integration, debugging, documentation
+- 🚆 Train data logging mechanism design and implementation (Faiveley project)
+- 📄 Technical documentation and cross-team collaboration  
 
 **Technologies:** C++, Linux, GIT, Jira, DOORS, Eclipse, Vector CANoe  
 
@@ -90,29 +82,35 @@ redirect_from:
 ### 💡 Junior Software Engineer | Fortech  
 📍 Cluj County | 📅 Sep 2017 – Oct 2018  
 
-**Project:** Speech Recognition Software  
+**Project:** Nuance Communications (Speech recognition systems)  
 
 **Responsibilities:**  
-- 🔊 Developed NLP modules, debugging, unit testing  
-- ⚙️ API validation and CI pipeline support  
+- 🖥 Developed and executed automated test scripts for speech recognition components  
+- 📝 Wrote C# test cases to validate NLP and voice interaction features  
+- 🐞 Reported defects, performed regression testing, and analyzed system behavior  
 
-**Tools:** Visual Studio, NUnit, SoapUI, Bamboo, Confluence  
-
----
-
-### 💻 C# Summer Intern | Emerson  
-📍 Cluj County | 📅 Jul 2017 – Aug 2017  
-
-**Project:** Industrial Controller Simulator  
+**Tools & Technologies:** C# , NUnit, Jira, VS Code
 
 ---
 
 ### 🧪 QA Trainee | Hewlett Packard Enterprise  
 📍 Cluj County | 📅 Mar 2017 – Apr 2017  
 
-**Project:** Automated & Manual Web Testing  
+**Project:** Automated & manual web testing (Selenium, Postman)  
 
-**Tools:** NUnit, Selenium, Postman  
+**Responsibilities:**  
+- 📝 Performed manual and automated web application testing  
+- 🐞 Created, executed, and documented test cases and bug reports  
+- ⚙️ Contributed to automated test scripts to improve coverage  
+
+**Tools & Technologies:** Selenium, Postman, NUnit
+
+---
+
+### 💻 C# Summer Intern | Emerson  
+📍 Cluj County | 📅 Jul 2017 – Aug 2017  
+
+**Project:** Industrial Controller Simulator
 
 ---
 
@@ -120,6 +118,23 @@ redirect_from:
 📍 Cluj County | 📅 2016  
 
 **Project:** RGB LED Control with Microcontrollers  
+
+<br>
+# 📘 Education
+---
+---
+
+**🎓 Ph.D in System Engineering**, Technical University of Cluj-Napoca (2023)  
+*Focus: 3D Object Recognition using embedded devices with ToF cameras*
+
+**🎓 MSc in Applied Computer Science in Complex Systems Engineering**, Technical University of Cluj-Napoca (2020)  
+*Focus: Control system for self-driving cars*
+
+**🎓 BSc in Automation**, Technical University of Cluj-Napoca (2018)  
+*Focus: Automation, Systems Engineering, Embedded Systems*
+
+**🎓 High School Diploma in Informatics**, National College "Mihai Eminescu" of Satu Mare (2014)  
+*Focus: Mathematics & Informatics*
 
 ---
 <br>
@@ -134,18 +149,17 @@ redirect_from:
 
 ### 🔌 Embedded Systems & Firmware
 Zephyr RTOS · FreeRTOS · HAL · Kernel Modules · Device Drivers  
-Bare-metal Programming · ARM Cortex · Raspberry Pi · ESP32 · nRF24  
 ToF Cameras · LiDAR · UWB Systems
 
 ---
 
 ### 🖥 Operating Systems & Platforms
-Linux (Ubuntu, Yocto, Embedded Linux) · AOSP · Android HAL · Android SDK
+Linux (Ubuntu, Yocto (minimal knowledge), Embedded Linux) · AOSP · Android HAL · Android SDK
 
 ---
 
 ### 🔧 Tools & DevOps
-Git · GitLab CI/CD · Jenkins · Terraform · GDB · Eclipse · VS Code · Polyspace · ADB · Vector CANoe · Jira · Confluence
+Git · GitLab CI/CD · Jenkins · Terraform · GDB · Eclipse · VS Code · Docker · ADB · Vector CANoe · Jira · Confluence
 
 ---
 
@@ -221,9 +235,70 @@ Teaching & Mentoring · Research Writing · Automation Prototyping · Cross-func
 - **Romanian** – Business Fluent  
 - **English** – Good Knowledge  
 - **Hungarian** – Fluent (Mother Tongue)  
-- **German** – Good Knowledge
+- **German** – Basic Knowledge
 
 --- 
+
+
+<div class="cv-download-links">
+<a href="{{ base_path }}/files/Benjamin_Kelenyi_s_CV.pdf" class="btn btn--inverse">Download CV as PDF</a>
+</div>
+
+
+<style>
+.cv-download-links {
+text-align: center;
+margin-top: 2rem;
+}
+
+
+.cv-download-links .btn {
+font-size: 1.2rem;
+padding: 1rem 2rem;
+border: none;
+border-radius: 14px;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+background: #333;
+color: #fff;
+position: relative;
+overflow: hidden;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+animation: fadeIn 1s ease forwards;
+}
+
+
+.cv-download-links .btn:hover {
+transform: translateY(-4px) scale(1.06);
+box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+}
+
+
+.cv-download-links .btn::after {
+content: "";
+position: absolute;
+top: 0;
+left: -120%;
+width: 100%;
+height: 100%;
+background: linear-gradient(120deg, transparent, rgba(255,255,255,0.55), transparent);
+animation: shine 2.5s infinite;
+}
+
+
+@keyframes shine {
+0% { left: -120%; }
+50% { left: 120%; }
+100% { left: 120%; }
+}
+
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+</style>
 
 <!-- Service and leadership
 ======

@@ -8,57 +8,223 @@ redirect_from:
 ---
 
 {% include base_path %}
+<br>
+# 📘 Education
+---
+---
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**🎓 Ph.D in System Engineering**, Technical University of Cluj-Napoca (2023)  
+*Focus: 3D Object Recognition using embedded devices with ToF cameras*
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**🎓 MSc in Applied Computer Science in Complex Systems Engineering**, Technical University of Cluj-Napoca (2020)  
+*Focus: Control system for self-driving cars*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**🎓 BSc in Automation**, Technical University of Cluj-Napoca (2018)  
+*Focus: Automation, Systems Engineering, Embedded Systems*
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**🎓 High School Diploma in Informatics**, National College "Mihai Eminescu" of Satu Mare (2014)  
+*Focus: Mathematics & Informatics*
 
-Publications
-======
+---
+<br>
+# 💼 Work Experience
+---
+---
+
+### 🚀 Freelance Software Engineer | Qorvo  
+📍 Remote | 📅 Jun 2022 – Present  
+
+**Project:** Custom UWB (Ultra-Wideband) Chip Development  
+
+**Responsibilities:**
+- 🔧 HAL development, AOSP integration, and firmware engineering  
+- 🛠️ Development and integration of RTOS-based drivers  
+- ⚙️ Embedded Linux, Zephyr RTOS maintenance  
+- 🧪 Python tooling for feature validation and CI/CD automation  
+- 📄 Documentation, testing, and system integration  
+
+**Technologies:** C/C++, Python, Zephyr, AOSP, Android SDK, Linux, GitLab CI, VS Code, GDB, Terraform, Jira, Confluence  
+
+---
+
+### 🤖 Artificial Intelligence Researcher | Analog Devices  
+📍 Remote, Cluj | 📅 Jan 2021 – Dec 2023  
+
+**Project:** Image Segmentation & 3D Classification using ToF/LiDAR  
+
+**Responsibilities:**
+- 📈 Developed AI models for 3D segmentation and classification  
+- 🧪 Preprocessed 3D datasets and optimized training pipelines  
+- ⚙️ Embedded integration of 3D vision algorithms  
+
+**Tools:** Python, ROS, Jupyter, Google Colab, Visual Studio Code  
+
+---
+
+### 👨‍🏫 Teaching Assistant | Technical University of Cluj-Napoca  
+📍 Cluj | 📅 Feb 2021 – Jun 2022  
+
+**Subjects:** Hydraulic & Pneumatic Systems, Robotic Control Systems  
+
+**Responsibilities:**
+- 🎓 Tutoring labs, simulations, and project guidance  
+- 📘 LAboratory content improvement and evaluation support 
+
+**Tools:** ROS, MATLAB, Codesys, WinPISA, FestoFluid  
+
+---
+
+### 🔧 C/C++ Developer | Raptor Technologies  
+📍 Cluj County | 📅 Oct 2018 – Jan 2021  
+
+**Project:** Daimler ECU – Infotainment & Connectivity  
+
+**Responsibilities:**  
+- 💻 C++ development in Linux automotive environment  
+- 🚗 CAN-based system integration, debugging, documentation  
+
+**Technologies:** C++, Linux, GIT, Jira, DOORS, Eclipse, Vector CANoe  
+
+---
+
+### 💡 Junior Software Engineer | Fortech  
+📍 Cluj County | 📅 Sep 2017 – Oct 2018  
+
+**Project:** Speech Recognition Software  
+
+**Responsibilities:**  
+- 🔊 Developed NLP modules, debugging, unit testing  
+- ⚙️ API validation and CI pipeline support  
+
+**Tools:** Visual Studio, NUnit, SoapUI, Bamboo, Confluence  
+
+---
+
+### 💻 C# Summer Intern | Emerson  
+📍 Cluj County | 📅 Jul 2017 – Aug 2017  
+
+**Project:** Industrial Controller Simulator  
+
+---
+
+### 🧪 QA Trainee | Hewlett Packard Enterprise  
+📍 Cluj County | 📅 Mar 2017 – Apr 2017  
+
+**Project:** Automated & Manual Web Testing  
+
+**Tools:** NUnit, Selenium, Postman  
+
+---
+
+### 🔬 Workshop Participant | AROBS Transilvania Software  
+📍 Cluj County | 📅 2016  
+
+**Project:** RGB LED Control with Microcontrollers  
+
+---
+<br>
+# 🛠️ Skills
+---
+---
+
+### 💻 Programming
+`C` · `C++` · `Python` · `Bash` · `Android` · `Embedded` · `Linux`
+
+---
+
+### 🔌 Embedded Systems & Firmware
+Zephyr RTOS · FreeRTOS · HAL · Kernel Modules · Device Drivers  
+Bare-metal Programming · ARM Cortex · Raspberry Pi · ESP32 · nRF24  
+ToF Cameras · LiDAR · UWB Systems
+
+---
+
+### 🖥 Operating Systems & Platforms
+Linux (Ubuntu, Yocto, Embedded Linux) · AOSP · Android HAL · Android SDK
+
+---
+
+### 🔧 Tools & DevOps
+Git · GitLab CI/CD · Jenkins · Terraform · GDB · Eclipse · VS Code · Polyspace · ADB · Vector CANoe · Jira · Confluence
+
+---
+
+### 🤖 AI & Computer Vision
+3D Object Detection · Segmentation · Depth Sensing · Point Clouds · OpenCV · NumPy · TensorFlow · ROS
+
+---
+
+### 🏗 Software Engineering
+OOP · Software Architecture · Unit Testing · Continuous Integration · Technical Documentation · Agile Development
+
+---
+
+### ✨ Other Skills
+Teaching & Mentoring · Research Writing · Automation Prototyping · Cross-functional Collaboration
+
+---
+<br>
+# 📝 Publications
+---
+---
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
+
+---
+<br>
+# 🤝 Colaborations
+---
+---
+
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
-======
+
+--- 
+<br>
+# 👨‍🏫 Teaching
+---
+---
+
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+---
+<br>
+# 🏅 Licenses & Certifications
+---
+---
+
+- **2022** – Active Vision Methods in Autonomous Driving  
+- **2018** – Fundamentals of Applications Security  
+- **2013** – European Computer Driving License (ECDL)
+
+---
+<br>
+# 🏆 Honors & Awards
+---
+---
+
+- **10/2019 – 05/2020** – Team Leader, 3rd Place at Bosch Future Mobility Challenge 2020  
+  *Project:* Develop autonomous driving algorithms on 1/10 scale vehicles  
+  *Tools:* GIT, Visual Studio Code, Matlab, ROS, Gazebo  
+
+---
+<br>
+# 🌐 Languages
+---
+---
+
+- **Romanian** – Business Fluent  
+- **English** – Good Knowledge  
+- **Hungarian** – Fluent (Mother Tongue)  
+- **German** – Good Knowledge
+
+--- 
+
+<!-- Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->

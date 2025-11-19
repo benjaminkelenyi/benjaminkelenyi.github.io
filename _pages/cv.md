@@ -103,7 +103,7 @@ redirect_from:
 ### 💻 C# Summer Intern | Emerson  
 📍 Cluj County | 📅 Jul 2017 – Aug 2017  
 
-**Project:** Industrial Controller Simulator  
+**Project:** Industrial Controller Simulator
 
 ---
 
@@ -134,13 +134,12 @@ redirect_from:
 
 ### 🔌 Embedded Systems & Firmware
 Zephyr RTOS · FreeRTOS · HAL · Kernel Modules · Device Drivers  
-Bare-metal Programming · ARM Cortex · Raspberry Pi · ESP32 · nRF24  
 ToF Cameras · LiDAR · UWB Systems
 
 ---
 
 ### 🖥 Operating Systems & Platforms
-Linux (Ubuntu, Yocto, Embedded Linux) · AOSP · Android HAL · Android SDK
+Linux (Ubuntu, Yocto (minimal knowledge), Embedded Linux) · AOSP · Android HAL · Android SDK
 
 ---
 
@@ -221,7 +220,7 @@ Teaching & Mentoring · Research Writing · Automation Prototyping · Cross-func
 - **Romanian** – Business Fluent  
 - **English** – Good Knowledge  
 - **Hungarian** – Fluent (Mother Tongue)  
-- **German** – Good Knowledge
+- **German** – Basic Knowledge
 
 --- 
 

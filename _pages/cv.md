@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+
 <br>
 # 📘 Education
 ---
@@ -38,7 +39,7 @@ redirect_from:
 
 **Responsibilities:**
 - 🔧 HAL development, AOSP integration, and firmware engineering  
-- 🛠️ Development and integration of RTOS-based drivers  
+<!-- - 🛠️ Development and integration of RTOS-based drivers   -->
 - ⚙️ Embedded Linux, Zephyr RTOS maintenance  
 - 🧪 Python tooling for feature validation and CI/CD automation  
 - 📄 Documentation, testing, and system integration  
@@ -103,7 +104,7 @@ redirect_from:
 ### 💻 C# Summer Intern | Emerson  
 📍 Cluj County | 📅 Jul 2017 – Aug 2017  
 
-**Project:** Industrial Controller Simulator  
+**Project:** Industrial Controller Simulator
 
 ---
 
@@ -134,13 +135,12 @@ redirect_from:
 
 ### 🔌 Embedded Systems & Firmware
 Zephyr RTOS · FreeRTOS · HAL · Kernel Modules · Device Drivers  
-Bare-metal Programming · ARM Cortex · Raspberry Pi · ESP32 · nRF24  
 ToF Cameras · LiDAR · UWB Systems
 
 ---
 
 ### 🖥 Operating Systems & Platforms
-Linux (Ubuntu, Yocto, Embedded Linux) · AOSP · Android HAL · Android SDK
+Linux (Ubuntu, Yocto (minimal knowledge), Embedded Linux) · AOSP · Android HAL · Android SDK
 
 ---
 
@@ -221,9 +221,70 @@ Teaching & Mentoring · Research Writing · Automation Prototyping · Cross-func
 - **Romanian** – Business Fluent  
 - **English** – Good Knowledge  
 - **Hungarian** – Fluent (Mother Tongue)  
-- **German** – Good Knowledge
+- **German** – Basic Knowledge
 
 --- 
+
+
+<div class="cv-download-links">
+<a href="{{ base_path }}/files/cv.pdf" class="btn btn--inverse">Download CV as PDF</a>
+</div>
+
+
+<style>
+.cv-download-links {
+text-align: center;
+margin-top: 2rem;
+}
+
+
+.cv-download-links .btn {
+font-size: 1.2rem;
+padding: 1rem 2rem;
+border: none;
+border-radius: 14px;
+cursor: pointer;
+text-decoration: none;
+display: inline-block;
+background: #333;
+color: #fff;
+position: relative;
+overflow: hidden;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+animation: fadeIn 1s ease forwards;
+}
+
+
+.cv-download-links .btn:hover {
+transform: translateY(-4px) scale(1.06);
+box-shadow: 0 8px 22px rgba(0,0,0,0.25);
+}
+
+
+.cv-download-links .btn::after {
+content: "";
+position: absolute;
+top: 0;
+left: -120%;
+width: 100%;
+height: 100%;
+background: linear-gradient(120deg, transparent, rgba(255,255,255,0.55), transparent);
+animation: shine 2.5s infinite;
+}
+
+
+@keyframes shine {
+0% { left: -120%; }
+50% { left: 120%; }
+100% { left: 120%; }
+}
+
+
+@keyframes fadeIn {
+from { opacity: 0; transform: translateY(10px); }
+to { opacity: 1; transform: translateY(0); }
+}
+</style>
 
 <!-- Service and leadership
 ======
